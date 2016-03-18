@@ -7,7 +7,7 @@ package tubesss;
 
 /**
  *
- * @author ANZYM
+ * @author Rizaldi
  */
 public class Tubesss {
 
@@ -15,8 +15,15 @@ public class Tubesss {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        sadsadasdasdasd
+        Dosen Dsn = new Dosen("Imam",1301140343);
+        //Kelas Kls = new Kelas();
+        Mahasiswa Mhs = new Mahasiswa("ali",1000);
+        MataKuliah Mtk = new MataKuliah("Kalkulus","Senin");
+        
+        
+        System.out.println("Nama Dosen : "+Dsn.getNamaDosen();
+        System.out.println("Nama Mahasiswa : "+Mhs.getNama());
+        
     }
     
 }
