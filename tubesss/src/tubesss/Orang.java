@@ -9,28 +9,28 @@ package tubesss;
  *
  * @author ANZYM
  */
-public class Mahasiswa extends Orang {
-    private String nama;
-    pivate String nim;
-    
-    public orang (string nama, string nim) {
-        this.nama = nama;
-        this.nim = nim; 
-    }
-    
-    public void setNamaMahasiswa (string nama) {
-        this.nama = nama;
-    }
-    
-    public void setNimMahasiwa (string nama) {
-        this.nim = nim;
-    }
-    
-    public string getNimMahasiswa() {
-        return nim;
-    }
-    
-    public string getNamaMahasiswa() {
-        return nama;
-    }
+public abstract class Orang {
+   private String nama;
+   private Long id;
+   
+   public Orang (String nama, long id) {
+       this.nama = nama;
+       this.id = id;
+   }
+   
+   public void setNama (String nama) {
+       this.nama = nama;
+   }
+   
+   public void setId (Long id) {
+       this.id = id;
+   }
+   
+   public Long getId () {
+       return id;
+   }
+   
+   public String getNama () {
+       return nama;
+   }
 }
