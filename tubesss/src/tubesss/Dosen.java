@@ -11,9 +11,9 @@ package tubesss;
  */
 public class Dosen extends Orang {
     private String namaDosen;
-    private String idDosen;
+    private int idDosen;
     
-    public Dosen (String nama, Long id) {
+    public Dosen (String nama, int id) {
         super(nama,id);
     }
 
@@ -21,7 +21,7 @@ public class Dosen extends Orang {
         this.namaDosen = namaDosen;
     }
     
-    public void setIdDosen (String idDosen) {
+    public void setIdDosen (int idDosen) {
         this.idDosen = idDosen;
     }
     
@@ -29,7 +29,7 @@ public class Dosen extends Orang {
         return namaDosen;
     }
     
-    public String getIdDosen () {
+    public int getIdDosen () {
         return idDosen;
     }
 }
