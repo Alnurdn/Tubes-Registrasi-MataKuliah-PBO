@@ -11,9 +11,9 @@ package tubesss;
  */
 public abstract class Orang {
    private String nama;
-   private Long id;
+   private int id;
    
-   public Orang (String nama, long id) {
+   public Orang (String nama, int id) {
        this.nama = nama;
        this.id = id;
    }
@@ -22,11 +22,11 @@ public abstract class Orang {
        this.nama = nama;
    }
    
-   public void setId (Long id) {
+   public void setId (int id) {
        this.id = id;
    }
    
-   public Long getId () {
+   public int getId () {
        return id;
    }
    
