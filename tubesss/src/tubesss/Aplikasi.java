@@ -12,18 +12,18 @@ package tubesss;
 public class Aplikasi {
     private Dosen[] daftarDosen;
     private Mahasiswa[] daftarMahasiswa;
-    private kelas daftarKelas;
+    private Kelas daftarKelas;
     
-    public addDosen (Dosen Dsn) {
+    public void addDosen (Dosen Dsn) {
         
     }
     
-    public addMahasiswa (Mahasiswa Mhs) {
+    public void addMahasiswa (Mahasiswa Mhs) {
         
     }
     
-    public Mahasiswa getMahasiswa (int id) {
-        
+    public Mahasiswa getMahasiswa (Mahasiswa id) {
+        return id;
     }
     
     public void deleteMahasiswa (int id) {
