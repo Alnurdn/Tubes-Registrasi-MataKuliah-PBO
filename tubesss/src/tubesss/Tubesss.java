@@ -15,13 +15,16 @@ public class Tubesss {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Dosen Dsn = new Dosen("Imam",1301140343);
+        System.out.print("Username : ");
+        System.out.println("Password : ");
+        Dosen Dsn1 = new Dosen("Imam",1301140343);
         //Kelas Kls = new Kelas();
         Mahasiswa Mhs = new Mahasiswa("ali",1000);
-        MataKuliah Mtk = new MataKuliah("Kalkulus","Senin");
+        MataKuliah Mtk1 = new MataKuliah("Kalkulus","Senin");
+        MataKuliah Mtk2 = new MataKuliah("FIsika","Selasa");
         
         
-        System.out.println("Nama Dosen : "+Dsn.getNamaDosen();
+        System.out.println("Nama Dosen : "+Dsn1.getNamaDosen());
         System.out.println("Nama Mahasiswa : "+Mhs.getNama());
         
     }
