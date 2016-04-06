@@ -46,5 +46,12 @@ public class Mahasiswa extends Orang {
 //        }
 //        }
         listKelas.remove(id);
+        
+        
+        //saya terbaik
+        
+     public void kuranggizi(){
+         
+     
     }
 }
